@@ -25,7 +25,8 @@ The [node-gotranslate](https://github.com/itskdk/node-gotranslate) framework rel
 ### SiteDumper Component
 > A component for _mirroring or dumping_ remote websites for _offline preview or caching_ purpose
 
-**_Node-GoTranslate_** relies upon **TODO: Add/Refine relavent stuff**
+This component is experimental and could be used for mirroring a remote website for accessing it as offline or cached version. It creates and maintains the exact diredctory structure of the remote website and make it available locally. 
+**Component Status:** This component is currently in "Planning" phase.
 
 ---
 ### SiteCrawler Component
@@ -33,30 +34,35 @@ The [node-gotranslate](https://github.com/itskdk/node-gotranslate) framework rel
 
 **_Node-GoTranslate_** relies upon [node-simplecrawler](https://github.com/cgiffard/node-simplecrawler) package for its crawling functionality. 
 
-**_Node-GoTranslate_** relies upon [node-simplecrawler](https://github.com/cgiffard/node-simplecrawler) package for its crawling functionality, for storing dumps on the file system it uses [Node's](https://nodejs.org/) built-in [**fs**] (https://nodejs.org/api/fs.html) module. In addition to this, It also consumes the packages such as [**cheerio**](https://github.com/cheeriojs/cheerio) for executing [**PhraseExtractor**](https://github.com/itskdk/node-gotranslate#phraseExtractor) JavaScript API for extracting webpage contents, which needs to be localized using **_Node-GoTranslate_** framework.
+**_Node-GoTranslate_** relies upon [node-simplecrawler](https://github.com/cgiffard/node-simplecrawler) package for its crawling functionality, for storing dumps on the file system it uses [Node's](https://nodejs.org/) built-in [**fs**] (https://nodejs.org/api/fs.html) module. In addition to this, It also consumes the packages such as [**cheerio**](https://github.com/cheeriojs/cheerio) for executing [**PhraseExtractor**](https://github.com/itskdk/node-gotranslate#phraseExtractor) JavaScript API for extracting webpage contents, which needs to be localized using **_Node-GoTranslate_** framework. 
+**Component Status:** This component is currently in "Development" phase.
 
 ---
 ### SiteIndexer Component
 > A component for _indexing_ website contents in _Apache Solr server_
 
 **_Node-GoTranslate_** relies upon [solr-client](https://github.com/lbdremy/solr-node-client) package for indexing contents of website, into [Apache Solr](http://lucene.apache.org/solr/) server.
+**Component Status:** This component is currently in "Planning" phase.
 
 ---
 ### SiteSearch Component
 > A component for providing _search as a service_ to remote or mirrored website
 
-As the name suggest, this compoent provides search-as-a-service to those websites, where site-level search feature is missing. This is an experimental component, which is purely based on Apache Solr for underlying functionality. 
+As the name suggest, this compoent provides search-as-a-service to those websites, where site-level search feature is missing. This is an experimental component, which is purely based on Apache Solr for underlying functionality.
+**Component Status:** This component is currently in "Planning" phase. 
 
 ### SiteViewer Component
 > A component for _previewing_ mirred website
 
 This component is mainly being used for showcasing offline or cached preview of mirror website upon request from various components and tools of **_Node-GoTranslate_** framework. 
+**Component Status:** This component is currently in "Planning" phase.
 
 ---
 ### PageScrapper Component  
 > A component for _content scrapping_ from provided URL
 
 For website scrapping **_Node-GoTranslate_** relies upon [Node's](https://nodejs.org/) built-in [**http**](https://nodejs.org/api/http.html) and [**fs**] (https://nodejs.org/api/fs.html) modules. In addition to this, It also consumes the packages such as [**cheerio**](https://github.com/cheeriojs/cheerio) for executing [**PhraseExtractor**](https://github.com/itskdk/node-gotranslate#phraseExtractor) JavaScript API for extracting webpage contents, which needs to be localized using **_Node-GoTranslate_** framework.
+**Component Status:** This component is currently in "Development" phase.
 
 ---
 ### PageExtractor Component
@@ -72,6 +78,8 @@ It is the most important component of **_Node-GoTranslate_** framework, which is
 
 #### Server-side Components
 + The **_Node-GoTranslate_** framework's components such as __SiteCrawler__ and __SiteScrapper__ relies upon it.
+
+**Component Status:** This component is currently in "Development" phase.
 
 ---
 ### Developer/Maintainer
