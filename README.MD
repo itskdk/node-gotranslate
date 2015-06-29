@@ -74,4 +74,4 @@ It is the most important component of **_Node-GoTranslate_** framework, which is
 
 ---
 ### Developer/Maintainer
-This project is being designed, developed and maintained by @itskdk.
+This project is being designed, developed and maintained by **@itskdk** - [Website](https://itskdk.github.io/) or [profile](https://github.com/itskdk).
