@@ -66,11 +66,12 @@ For website scrapping **_Node-GoTranslate_** relies upon [Node's](https://nodejs
 
 It is the most important component of **_Node-GoTranslate_** framework, which is being used by following solutions at various levels: -
 
-1. **Client-side Components**
-..+ **For end-users**, we have provided Browser Plug-ins for various popular web-browseres such as __Google Chrome__, __Mozilla Firefox__, __Internet Explorer__.
-..+ **For webmasters**, we provide Embeddable JavaScipt Code Snippet to be integrated into their website.
-2. **Server-side Components**
-..+ The **_Node-GoTranslate_** framework's components such as __SiteCrawler__ and __SiteScrapper__ relies upon it.
+#### Client-side Solutions
++ **For end-users**, we have provided Browser Plug-ins for various popular web-browseres such as __Google Chrome__, __Mozilla Firefox__, __Internet Explorer__.
++ **For webmasters**, we provide Embeddable JavaScipt Code Snippet to be integrated into their website.
+
+#### Server-side Components
++ The **_Node-GoTranslate_** framework's components such as __SiteCrawler__ and __SiteScrapper__ relies upon it.
 
 ---
 ### Developer/Maintainer
