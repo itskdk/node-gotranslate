@@ -1,0 +1,1 @@
+node-gotranslate, a next generation full stack website localization framework, which leverages upon the success of various popular packges and integrates these into a unique solution for localizing a remote website with minimal efforts. The 'node-gotranslate' features the following powerful components mainly: - TODO: Update this section with relavent information
